@@ -66,7 +66,7 @@ var scene = new THREE.Scene();
 
 const hdrEquirect = new RGBELoader()
   // add your HDR //
-  .load('/public/gradient-ml-2.hdr', function () {
+  .load('gradient-ml-2.hdr', function () {
     hdrEquirect.mapping = THREE.EquirectangularReflectionMapping;
   });
 
@@ -107,7 +107,7 @@ const material1 = new THREE.MeshStandardMaterial({
 
 // Load Model 3D
 const objloader = new OBJLoader();
-objloader.load('/public/skull-2.obj', (object) => {
+objloader.load('skull-2.obj', (object) => {
   object.children[0].material = material1;
   object.scale.setScalar(3);
   object.position.set(0, -1, 0);
