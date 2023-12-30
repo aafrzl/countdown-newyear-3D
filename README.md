@@ -13,4 +13,4 @@ Ini adalah project website countdown untuk tahun baru dengan element 3D mengguna
 
 ## References Design and Inspiration
 
-- [Dennis Nellenberg](https://dennissnellenberg.com/)
+- [Peace of Mind by miroleon](https://codepen.io/miroleon/pen/MWzxdqr)
